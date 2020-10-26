@@ -3,11 +3,14 @@
 }
 
 #center-container {
-  width:800px;
+  width:600px;
+  height:600px;
 }
 
+
 #infovis {
-  width:800px;
+  margin-top:50px;
+  width:600px;
 }
 
 #id-list {
@@ -23,6 +26,11 @@
   list-style: none;
   margin-bottom:3px;
   
+}
+
+.leftfcontainer {
+  margin-left:30px;
+  position: absolute;
 }
 
 .query-color {

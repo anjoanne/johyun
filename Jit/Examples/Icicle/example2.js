@@ -448,19 +448,19 @@ function init(){
                           },
 
                           {
-                            "name": "지능 (IQ) 검사",
+                            "name": "웩슬러 지능 검사",
                             "id": "2150553740-site_taskam",
                             "children": [
                               {
-                                "name": "언어 지능 평가 결과",
-                                "id": "2150544560-5.10",
+                                "name": "언어 이해",
+                                "id": "2150544560-5.0",
                                 "children": [
                                   {
-                                    "name": "darwin-thread-multi-2level",
-                                    "id": "2150540260-darwin-thread-multi-2level",
+                                    "name": "기본지식",
+                                    "id": "2150540260-darwin-thread-multi1evel",
                                     "children": [
                                       {
-                                        "name": "auto",
+                                        "name": "",
                                         "id": "2150535500-auto",
                                         "children": [
                                           {
@@ -472,7 +472,39 @@ function init(){
                                           }
                                         ],
                                         "data": {
-                                          "$color": "#5921ff"
+                                          "$color": "#2159ff"
+                                        }
+                                      }
+                                    ],
+                                    "data": {
+                                      "$color": "#2159ff"
+                                    }
+                                  },   {
+                                    "name": "숫자외우기",
+                                    "id": "2150540260-darwin-thread-multi-3level",
+                                    "children": [
+                                      {
+                                        "name": "",
+                                        "id": "2150535500-auto",
+                                    
+                                        "data": {
+                                          "$color": "#2159ff"
+                                        }
+                                      }
+                                    ],
+                                    "data": {
+                                      "$color": "#2159ff"
+                                    }
+                                  }, {
+                                    "name": "어휘이해",
+                                    "id": "2150540260-darwin-thread-multi-4level",
+                                    "children": [
+                                      {
+                                        "name": "",
+                                        "id": "2150535500-auto",
+                                    
+                                        "data": {
+                                          "$color": "#2159ff"
                                         }
                                       }
                                     ],
@@ -481,7 +513,7 @@ function init(){
                                     }
                                   },
                                        {
-                                    "name": "darwin-thread-multi-2level",
+                                    "name": "지각추론",
                                     "id": "2150540260-darwin-thread-multi-2level",
                                     "children": [
                                       {
@@ -509,8 +541,8 @@ function init(){
                                 "data": {
                                   "$color": "#21c8ff"
                                 }
-                              } , {
-                                "name": "논리 수학 지능검사",
+                              } ,{
+                                "name": "작업 기억",
                                 "id": "2150540260-darwin-thread-multi-2",
                                 "children": [
                                   {
@@ -531,9 +563,33 @@ function init(){
                                   }
                                 ],
                                 "data": {
-                                  "$color": "#2159ff"
+                                  "$color": "#21c8ff"
                                 }
-                              },   
+                              },   {
+                                "name": "처리 속도",
+                                "id": "2150540260-darwin-thread-multi-3",
+                                "children": [
+                                  {
+                                    "name": "auto",
+                                    "id": "2150535500-auto",
+                                    "children": [
+                                      {
+                                        "name": "Git",
+                                        "id": "2150531160-Git",
+                                        "data": {
+                                          "$color": "#c821ff"
+                                        }
+                                      }
+                                    ],
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              }
                             ],
                             "data": {
                               "$color": "#21ffc8"
@@ -562,20 +618,330 @@ function init(){
                   "id": "2150411540-etc",
                   "children": [
                       {
-                        "name": "pango",
-                        "id": "2150410300-pango",
+                        "name": "식별자(Identifiers) ",
+                        "id": "21504103-pana",
+                   
+                            "children": [
+                              
+                                {
+                                  "name": "고유식별정보(주민등록번호, 여권번호, 운전면허번호 등) ",
+                                  "id": "2150410-1",
+                                  "data": {
+                                    "$color": "#21ffc8"
+                                  }
+                                }, {
+                                  "name": "성명",
+                                  "id": "2150556-2",
+                                  "data": {
+                                    "$color": "#21ffc8"
+                                  }
+                                }, {
+                                  "name": "전화번호",
+                                  "id": "2150556-3",
+                                  "data": {
+                                    "$color": "#21ffc8"
+                                  }
+                                }, {
+                                  "name": "상세주소",
+                                  "id": "2150556-4",
+                                  "data": {
+                                    "$color": "#21ffc8"
+                                  }
+                                }
+                                ,{
+                                  "name": "계좌 및 신용카드 번호",
+                                  "id": "2150556-5",
+                                  "data": {
+                                    "$color": "#21ffc8"
+                                  }
+                                }
+                                  ,{
+                                    "name": "의료기록번호",
+                                    "id": "2150556-6",
+                                    "data": {
+                                      "$color": "#21ffc8"
+                                    }
+                                  }
+                                      
+                                  ,{
+                                    "name": "자동차 및 각종 기기의 등록 번호",
+                                    "id": "2150556-7",
+                                    "data": {
+                                      "$color": "#21ffc8"
+                                    }
+                                }
+                            ],
                         "data": {
                           "$color": "#21ff59"
                         }
                       }, {
-                        "name": "bash_completion.d",
+                        "name": "속성자 (Attribute Value)",
                         "id": "2150407380-bash_completion.d",
-                        "data": {
-                          "$color": "#21ff59"
-                        }
-                      }, {
-                        "name": "gtk-2.0",
-                        "id": "2150409060-gtk-2.0",
+                        "children": [
+                              
+                          {
+                            "name": "개인 특성",
+                            "id": "21504103-panga",
+                            "children": [
+                              {
+                                "name": "성별, 연령(나이), 국적, 고향",
+                                "id": "2150535-1",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "흡연/음주여부, 채식여부, 관심사항 등",
+                                "id": "2150535-2",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "우편번호, 결혼여부, 종교, 취미, 동호회, 클럽",
+                                "id": "2150535-3",
+                          
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              }
+                            ],
+                            "data": {
+                              "$color": "#21ffc8"
+                            }
+                          },
+                          {
+                            "name": "신체특성",
+                            "id": "21505-1",
+                            "children": [
+                              {
+                                "name": "혈핵형, 신장, 몸무게, 허리둘레, 혈압, 눈동자 색 등",
+                                "id": "215053-1",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "신체검사 결과, 장애유형, 장애등급 등",
+                                "id": "215053-2",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "병명, 상병코드, 투약코드, 진료내역 등",
+                                "id": "215053-3",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              }
+                            ],
+                            "data": {
+                              "$color": "#21ffc8"
+                            }
+                          }, {
+                            "name": "신용 특성",
+                            "id": "2150510-1",
+                            "children": [
+                              {
+                                "name": "세금 납부액, 신용등급, 기부금 등",
+                                "id": "215051-1",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "건강보험료 납부액, 소득분위, 의료 급여자 등",
+                                "id": "215051-2",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                        
+                            ],
+                            "data": {
+                              "$color": "#21ffc8"
+                            }
+                          }, {
+                            "name": "경력 특성",
+                            "id": "215056-4",
+                            "children": [
+                              {
+                                "name": "학교명, 학과명, 학년, 성적, 학력 등",
+                                "id": "215052-1",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                              {
+                                "name": "경력, 직업, 직종, 직장명, 부서명, 직급, 전직장명 등",
+                                "id": "215052-2",
+                                "children": [
+                                  {
+                                    "name": "Git",
+                                    "id": "2150531160-Git",
+                                    "data": {
+                                      "$color": "#21c8ff"
+                                    }
+                                  }
+                                ],
+                                "data": {
+                                  "$color": "#21c8ff"
+                                }
+                              },
+                        
+                            ],
+                            "data": {
+                              "$color": "#21ffc8"
+                            }
+                          }
+                          
+                            ,{
+                              "name": "전자적 특성",
+                              "id": "215056-5",
+
+                              "children": [
+                                {
+                                  "name": "쿠키정보, 접속 일시, 방문일시, 서비스 이용 기록, 접속로그 등",
+                                  "id": "2150534-1",
+                                  "children": [
+                                    {
+                                      "name": "Git",
+                                      "id": "2150531160-Git",
+                                      "data": {
+                                        "$color": "#21c8ff"
+                                      }
+                                    }
+                                  ],
+                                  "data": {
+                                    "$color": "#21c8ff"
+                                  }
+                                },
+                                {
+                                  "name": "인터넷 접속기록, 휴대전화 사용 기록, GPS데이터 등",
+                                  "id": "215054-2",
+                                  "children": [
+                                    {
+                                      "name": "Git",
+                                      "id": "2150531160-Git",
+                                      "data": {
+                                        "$color": "#21c8ff"
+                                      }
+                                    }
+                                  ],
+                                  "data": {
+                                    "$color": "#21c8ff"
+                                  }
+                                },
+                          
+                              ],
+                              "data": {
+                                "$color": "#21ffc8"
+                              }
+                            }
+                                
+                            ,{
+                              "name": "가족 특성",
+                              "id": "215056-6",
+                              "children": [
+                                {
+                                  "name": "배우자 자녀 부머 형제 등 가족 정보, 법정대리인 정보 등",
+                                  "id": "2150536-9",
+                                  "children": [
+                                    {
+                                      "name": "Git",
+                                      "id": "215053116-Git",
+                                      "data": {
+                                        "$color": "#21c8ff"
+                                      }
+                                    }
+                                  ],
+                                  "data": {
+                                    "$color": "#21c8ff"
+                                  }
+                                }
+                              
+                          
+                              ],
+                              "data": {
+                                "$color": "#21ffc8"
+                              }
+                          }
+                          
+                        ],
+                      
                         "data": {
                           "$color": "#21ff59"
                         }

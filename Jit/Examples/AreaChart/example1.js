@@ -29,32 +29,41 @@ var Log = {
 function init(){
     //init data
     var json = {
-        'label': ['label A', 'label B', 'label C', 'label D'],
+        'label': ['유저 검사매칭 기록', '환자 가명데이터', '검사자 데이터', '환자(엔드유저) 데이터'],
         'values': [
         {
-          'label': 'date A',
+          'label': '2020.11',
           'values': [20, 40, 15, 5]
         }, 
         {
-          'label': 'date B',
+          'label': '2020.12',
           'values': [30, 10, 45, 10]
         }, 
         {
-          'label': 'date E',
+          'label': '2021.1',
           'values': [38, 20, 35, 17]
         }, 
         {
-          'label': 'date F',
+          'label': '2021.2',
           'values': [58, 10, 35, 32]
         }, 
         {
-          'label': 'date D',
+          'label': '2021.3',
           'values': [55, 60, 34, 38]
         }, 
         {
-          'label': 'date C',
+          'label': '2021.4',
           'values': [26, 40, 25, 40]
-        }]
+        },
+        {
+          'label': '2021.5',
+          'values': [26, 40, 25, 40]
+        },
+        {
+          'label': '2021.6',
+          'values': [26, 40, 25, 40]
+        }
+        ]
         
     };
     var json2 = {
