@@ -38,6 +38,108 @@ function init(){
             "name": "User Info Priority",
             "id": "2150432080-homebrew",
             "children": [
+              {
+                "name": "병원정보",
+                "id": "2150426340-sharea",
+                "children": [
+
+                  {
+                    "name": "병원이름",
+                    "id": "2150144620-aclocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },
+                  {
+                    "name": "병원 진료과 명",
+                    "id": "2150144620-accl", 
+                    "children" : [
+                      {
+                        "name": "정신건강의학과",
+                        "id": "2150149120-acloal1",
+                        "data": {
+                          "$color": "#21ffc8"
+                        }
+                      },
+                      {
+                        "name": "소아정신과",
+                        "id": "2150149120-acloal2",
+                        "data": {
+                          "$color": "#21ffc8"
+                        }
+                      },
+                      {
+                        "name": "종양정신건강의학과",
+                        "id": "2150149120-acloal3",
+                        "data": {
+                          "$color": "#21ffc8"
+                        }
+                      },
+                    ],
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },
+                  {
+                    "name": "주소",
+                    "id": "21501462-aclocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },
+                      {
+                    "name": "지하철역",
+                    "id": "21504462-aclol", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },    {
+                    "name": "유선전화",
+                    "id": "21501462-acocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },    {
+                    "name": "담당자명",
+                    "id": "21016092-aclocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  }
+                  ,    {
+                    "name": "담당자연락처",
+                    "id": "21504628-aclocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  }
+                  ,    {
+                    "name": "이메일",
+                    "id": "21501468-aclocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  },    {
+                    "name": "로그인아이디",
+                    "id": "2501462-aclcl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  }
+                  ,    {
+                    "name": "비밀번호",
+                    "id": "2151462-acocl", 
+                    "data": {
+                      "$color": "#21ff59"
+                    }
+                  }
+                 ],
+            
+                "data": {
+                  "$color": "#59ff21"
+                }
+              },
+            
                 {
                   "name": "검사자 개인정보",
                   "id": "2150426340-share",

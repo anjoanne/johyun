@@ -1,5 +1,10 @@
 #right-container {
-  display: none;
+  position:absolute;
+  background-color: transparent;
+  left:620px;
+  bottom:380px;
+  width:640px;
+  height:600px;
 }
 
 #center-container {
@@ -28,7 +33,7 @@
   
 }
 
-.leftfcontainer {
+.left-container {
   margin-left:30px;
   position: absolute;
 }
