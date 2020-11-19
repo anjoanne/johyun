@@ -4,7 +4,8 @@ html, body {
     font-family: "Lucida Grande", Verdana;
     font-size: 0.9em;
     text-align: center;
-    background-color:#F2F2F2;
+
+    background-color:#03121f;
     
 }
 
@@ -29,6 +30,15 @@ a {
 }
 
 #container {
+    
+    background-color:#03121f;
+    background-image:-moz-radial-gradient(center, ellipse cover, #061E33 0%, #03121f 100%);
+        background-image:-webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #061E33), color-stop(100%, #03121f));
+        background-image:-webkit-radial-gradient(center, ellipse cover, #061E33 0%, #03121f 100%);
+        background-image:-o-radial-gradient(center, ellipse cover, #061E33 0%, #03121f 100%);
+        background-image:-ms-radial-gradient(center, ellipse cover, #061E33 0%, #03121f 100%);
+        background-image:radial-gradient(ellipse at center, #061E33 0%, #03121f 100%);
+   
     width: 1000px;
     height: 1000px;
     margin:0 auto;
@@ -75,7 +85,8 @@ a {
 #center-container {
     width:600px;
     left:200px;
-    background-color:black;
+    
+    background-color:#03121f;
     color:rgb(236, 24, 24);
 }
 
