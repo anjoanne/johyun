@@ -13,9 +13,9 @@
   <meta name="description" content="PSEMO SECUITY DASHBOARD">
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/cube/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/cube/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/cube/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="shieldlogo.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="shieldlogo.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="shieldlogo.png">
   <link rel="manifest" href="/cube/manifest.json">
   <link rel="mask-icon" href="/cube/safari-pinned-tab.svg" color="#00f0ff">
   
@@ -54,11 +54,31 @@
     
     }
   </style>
-
+<script src="http://sibeeshpassion.com/content/scripts/jquery-1.11.1.min.js"></script>
   <script> 
+
 document.addEventListener("contextmenu", function(e){
     e.preventDefault();
 }, false);
+
+document.onkeypress = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
+document.onmousedown = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
+document.onkeydown = function (event) {  
+event = (event || window.event);  
+if (event.keyCode == 123) {  
+return false;  
+}  
+}  
   </script>
 </head>
 <body class="no-select loading">
@@ -119,7 +139,7 @@ document.addEventListener("contextmenu", function(e){
           <div class="des-dot"></div>
         </div>
         <div class="des-nav">
-          <a class="des-link" href="04.html"></a>
+          <a class="des-link" href="datautil.html"></a>
           <h2 class="des-heading text-white text-shine" >데이터 활용 기획 
             <div>04</div>
           </h2>
@@ -136,7 +156,7 @@ document.addEventListener("contextmenu", function(e){
       <div class="cube">
         <div class="side right">04
           <span class="side-inner mobile-only"></span>
-          <a class="side-inner desktop-only" href="04.html"></a>
+          <a class="side-inner desktop-only" href="datautil.html"></a>
         </div>
         <div class="side left">01
           <span class="side-inner mobile-only"></span>
@@ -146,7 +166,7 @@ document.addEventListener("contextmenu", function(e){
       
         <div class="side top">06
           <span class="side-inner mobile-only"></span>
-          <a class="side-inner desktop-only" href="06.html"></a>
+          <a class="side-inner desktop-only" href="datautil.html"></a>
         </div>
         <div class="side bottom">03
           <span class="side-inner mobile-only"></span>

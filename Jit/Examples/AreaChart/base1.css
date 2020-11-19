@@ -4,7 +4,7 @@ html, body {
     font-family: "Lucida Grande", Verdana;
     font-size: 0.9em;
     text-align: center;
-    background-color:#F2F2F2;
+    background-color:#03121f;
     
 }
 
@@ -29,6 +29,7 @@ a {
 }
 
 #container {
+    background-color:#03121f;
     width: 1000px;
     height: 1000px;
     margin:0 auto;
@@ -51,27 +52,29 @@ a {
 
 #left-container, #right-container {
     width:200px;
-    color:#686c70;
+    color:#ececec;
     text-align: left;
     overflow: auto;
     background-color:#fff;
     background-repeat:no-repeat;
-    border-bottom:1px solid #ddd;
+
 }
 
 #left-container {
+    background-color:#03121f;
     left:-230px;
     background-image:url('col2.png');
     background-position:center right;
-    border-left:1px solid #ddd;
+
     
 }
 
 #right-container {
+    background-color:#03121f;
     right:230;
     background-image:url('col1.png');
     background-position:center left;
-    border-right:1px solid #ddd;
+
 }
 
 #right-container h4{
@@ -79,10 +82,11 @@ a {
 }
 
 #center-container {
+    background-color:#03121f;
     bottom:300px;
     width:300px;
     left:150px;
-    background-color:black;
+
     color:rgb(236, 24, 24);
 }
 

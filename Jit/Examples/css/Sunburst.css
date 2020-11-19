@@ -16,12 +16,13 @@
 }
 
 pre {
-	background-color:#EEEEEE;
+	background-color:#f1f1f1;
 	border:1px solid #CCCCCC;
-	font-size:10px;
+	font-size:12px;
 	margin:5px auto;
 	padding:5px;
-	width:170px;
+	width:480px;
+	height: 800px;
 	
 	white-space: pre-wrap;
 	white-space: -moz-pre-wrap;

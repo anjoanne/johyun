@@ -19,7 +19,8 @@
 }
 
 #id-list {
-	background-color:#EEEEEE;
+  background-color:#EEEEEE;
+  color:black;
 	border:1px solid #CCCCCC;
 	margin:10px 20px 0 20px;
 	padding:5px;
