@@ -280,7 +280,7 @@ function init(){
                "$color": "#B6AEEF", 
                "size": 18010
              }, 
-             "id": "Source/Visualizations/RGraph.j료", 
+             "id": "Source/Visualizations/RGraph.js", 
              "name": "원격 진료"
            }, 
            
