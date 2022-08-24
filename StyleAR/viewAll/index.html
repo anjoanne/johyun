@@ -1,0 +1,689 @@
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <script src="https://hammerjs.github.io/dist/hammer.min.js"></script>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./loading.css" />
+    <link rel="stylesheet" href="./animate.css" />
+    <link rel="stylesheet" href="./modal.css" />
+    <title>ViewAllPage</title>
+  </head>
+  <body>
+    <div id="box">
+      <div class="layer float viewAll">
+        <header class="center">
+          <div class="container">
+            <div class="headerLeft center">
+              <div id="backBtn">
+                <img src="./assets/Icons/backBtn.png" alt="" />
+              </div>
+              <div class="title">모아보기</div>
+            </div>
+            <div class="headerRight">
+              <div id="searchIcon">
+                <img src="./assets/Icons/search.png" alt="" />
+              </div>
+            </div>
+            <div class="searchBar">
+              <div class="searchWrapper">
+                <div class="rightSearchIcon">
+                  <img src="./assets/Icons/search.png" alt="" />
+                </div>
+                <input type="search" value="귀걸이" />
+                <div class="clearBtn">
+                  <img src="./assets/Icons/cacel.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main>
+          <section id="collectionMenu" class="center">
+            <div class="container column">
+              <div id="aiEarringBtn" class="center">
+                <div class="box">
+                  <div class="left">
+                    <div class="aiIcon">
+                      <img src="./assets/Icons/aiRecommend.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="info column center">
+                    <h2 class="title">AI 추천 귀걸이</h2>
+                    <p class="sub">내 얼굴에 맞는 귀걸이 보기</p>
+                  </div>
+                </div>
+              </div>
+              <div class="collectionContainer column">
+                <div class="collectionMain">
+                  <ul class="swiper">
+                    <li class="name">All</li>
+                    <li class="name selected">귀걸이</li>
+                    <li class="name">목걸이</li>
+                    <li class="name">반지</li>
+                    <li class="name">팔찌</li>
+                    <li class="name">안경</li>
+                    <li class="name">네일</li>
+                    <li class="name">시계</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="filterTag" class="center">
+            <div class="container">
+              <ul class="swiper">
+                <li class="chip">
+                  <p class="text">소재</p>
+                  <div class="icon">
+                    <img src="./assets/Icons/filterTag.png" alt="" />
+                  </div>
+                </li>
+                <li class="chip selected">
+                  <p class="text">다이아몬드</p>
+                  <div class="icon">
+                    <img src="./assets/Icons/filterTag.png" alt="" />
+                  </div>
+                </li>
+                <li class="chip">
+                  <p class="text">색상</p>
+                  <div class="icon">
+                    <img src="./assets/Icons/filterTag.png" alt="" />
+                  </div>
+                </li>
+                <li class="chip">
+                  <p class="text">가격</p>
+                  <div class="icon">
+                    <img src="./assets/Icons/filterTag.png" alt="" />
+                  </div>
+                </li>
+                <li class="chip">
+                  <p class="text">소재</p>
+                  <div class="icon">
+                    <img src="./assets/Icons/filterTag.png" alt="" />
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section id="listControl" class="center">
+            <div class="container controlWrapper">
+              <div class="listPreview center">
+                <div class="icon">
+                  <img src="./assets/Icons/grid.png" alt="" />
+                </div>
+                <div class="iconArrow">
+                  <img src="./assets/Icons/arrow.png" alt="" />
+                </div>
+              </div>
+              <div class="sorting center">
+                <div class="icon">
+                  <img src="./assets/Icons/sorting.png" alt="" />
+                </div>
+                <div class="text">추천순</div>
+              </div>
+            </div>
+          </section>
+          <section id="list" class="center column">
+            <div class="container gridLayout">
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel">
+                    <div class="bestItem center">
+                      <div class="text">BEST</div>
+                    </div>
+                  </div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/1.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="extra">[NEW]</div>
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/2.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel">
+                    <div class="bestItem center">
+                      <div class="text">BEST</div>
+                    </div>
+                  </div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/1.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="extra">[NEW]</div>
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/3.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel">
+                    <div class="bestItem center">
+                      <div class="text">BEST</div>
+                    </div>
+                  </div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/4.jpg" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="extra">[NEW]</div>
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/5.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel">
+                    <div class="bestItem center">
+                      <div class="text">BEST</div>
+                    </div>
+                  </div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/1.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/2.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/3.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="imgArea">
+                  <div class="floatLabel"></div>
+                  <div class="floatHeart">
+                    <img src="./assets/Icons/like.png" alt="" />
+                  </div>
+                  <div class="itemImg">
+                    <img src="./assets/item/5.png" alt="" />
+                  </div>
+                </div>
+                <div class="itemInfoArea center">
+                  <div class="textWrapper">
+                    <div class="name">포레스트레인3</div>
+                    <div class="price">740,000원</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="floatIcon center column">
+            <div class="topIcon">
+              <img src="./assets/Icons/goUp.png" alt="" />
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="layer modal darkBackground selected">
+        <template id="sortingBottomSheet">
+          <div class="actionsheet container">
+            <div class="floatBox modalContent bottomSheet sortingBox center">
+              <div class="modalContainer center">
+                <ul class="sortingList">
+                  <li class="option selected">추천순</li>
+                  <li class="option">신상품순</li>
+                  <li class="option">상품명순</li>
+                  <li class="option">낮은가격순</li>
+                  <li class="option">높은가격순</li>
+                  <li class="option">인기상품순</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template id="filterBottomSheet">
+          <div class="actionsheet container">
+            <div class="floatBox modalContent bottomSheet center filterModal">
+              <div class="modalContainer center">
+                <div class="modalContent">
+                  <div class="tagSet">
+                    <div class="title">선택된 옵션</div>
+                    <ul class="tagList">
+                      <li class="tag selected">금속</li>
+                      <li class="tag selected">유색</li>
+                      <li class="tag selected">기타</li>
+                      <li class="tag selected">0.2캐럿</li>
+                      <li class="tag selected">2캐럿</li>
+                      <li class="tag selected">18K 핑크골드</li>
+                    </ul>
+                  </div>
+                  <div class="tagSet">
+                    <div class="title">소재</div>
+                    <ul class="tagList">
+                      <li class="tag">다이아몬드</li>
+                      <li class="tag selected">금속</li>
+                      <li class="tag">유색</li>
+                      <li class="tag">진주</li>
+                      <li class="tag">기타</li>
+                    </ul>
+                  </div>
+                  <div class="tagSet">
+                    <div class="title">카테고리</div>
+                    <ul class="tagList">
+                      <li class="tag">다이아몬드</li>
+                      <li class="tag">금속</li>
+                      <li class="tag selected">유색</li>
+                      <li class="tag">진주</li>
+                      <li class="tag selected">기타</li>
+                    </ul>
+                  </div>
+                  <div class="tagSet">
+                    <div class="title">다이아몬드</div>
+                    <ul class="tagList">
+                      <li class="tag">멜리</li>
+                      <li class="tag">0.1캐럿</li>
+                      <li class="tag selected">0.2캐럿</li>
+                      <li class="tag">0.3캐럿</li>
+                      <li class="tag">0.5캐럿</li>
+                      <li class="tag">1캐럿</li>
+                      <li class="tag selected">2캐럿</li>
+                      <li class="tag">3캐럿</li>
+                    </ul>
+                  </div>
+                  <div class="tagSet">
+                    <div class="title">색상</div>
+                    <ul class="imgTagList">
+                      <li class="imgTag">
+                        <div class="img">
+                          <img src="./assets/tags/1.png" alt="" />
+                        </div>
+                        <div class="text">18K 화이트 골드</div>
+                      </li>
+                      <li class="imgTag selected">
+                        <div class="img">
+                          <img src="./assets/tags/2.png" alt="" />
+                        </div>
+                        <div class="text">18K 옐로우 골드</div>
+                      </li>
+                      <li class="imgTag selected">
+                        <div class="img">
+                          <img src="./assets/tags/3.png" alt="" />
+                        </div>
+                        <div class="text">18K 핑크 골드</div>
+                      </li>
+                      <li class="imgTag">
+                        <div class="img">
+                          <img src="./assets/tags/1.png" alt="" />
+                        </div>
+                        <div class="text">플래티넘</div>
+                      </li>
+                      <li class="imgTag">
+                        <div class="img">
+                          <img src="./assets/tags/2.png" alt="" />
+                        </div>
+                        <div class="text">실버</div>
+                      </li>
+                      <li class="imgTag">
+                        <div class="img">
+                          <img src="./assets/tags/3.png" alt="" />
+                        </div>
+                        <div class="text">10K 골드</div>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="priceArea tagSet">
+                    <div class="title">금액대별</div>
+                    <div class="curPrice">
+                      <span class="min">0</span> 원 ~
+                      <span class="max">400,000</span> 원
+                    </div>
+                    <div class="priceTag">
+                      <ul class="priceTagList tagList">
+                        <li class="tag">0원 ~ 50만원</li>
+                        <li class="tag">50원 ~ 100만원</li>
+                        <li class="tag">100원 ~ 200만원</li>
+                        <li class="tag selected">200원 ~ 300만원</li>
+                        <li class="tag">300원 ~ 500만원</li>
+                        <li class="tag">500만원 ~</li>
+                      </ul>
+                    </div>
+                    <div class="priceProgressSlider">
+                      <div slider id="slider-distance">
+                        <div>
+                          <div inverse-left style="width: 70%"></div>
+                          <div inverse-right style="width: 70%"></div>
+                          <div range style="left: 30%; right: 40%"></div>
+                          <span thumb style="left: 30%"></span>
+                          <span thumb style="left: 60%"></span>
+                        </div>
+                        <input
+                          type="range"
+                          tabindex="0"
+                          value="30"
+                          max="100"
+                          min="0"
+                          step="1"
+                          oninput="
+                        this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                        var children = this.parentNode.childNodes[1].childNodes;
+                        children[1].style.width=value+'%';
+                        children[5].style.left=value+'%';
+                        children[7].style.left=value+'%';
+                        children[11].style.left=value+'%';
+                        "
+                        />
+
+                        <input
+                          type="range"
+                          tabindex="0"
+                          value="60"
+                          max="100"
+                          min="0"
+                          step="1"
+                          oninput="
+                        this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                        var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                        var children = this.parentNode.childNodes[1].childNodes;
+                        children[3].style.width=(100-value)+'%';
+                        children[5].style.right=(100-value)+'%';
+                        children[9].style.left=value+'%';
+                        children[13].style.left=value+'%';
+                       "
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="bottomBtnSet">
+                  <div class="initBtn center">
+                    <div class="icon">
+                      <img src="./assets/Icons/reload.png" alt="" />
+                    </div>
+                    <div class="text">필터 초기화</div>
+                  </div>
+                  <div class="searchBtn center">
+                    <div class="text">759개의 상품보기</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <div class="actionsheet container">
+          <div class="floatBox modalContent bottomSheet center filterModal">
+            <div class="modalContainer center">
+              <div class="modalContent">
+                <div class="tagSet">
+                  <div class="title">선택된 옵션</div>
+                  <ul class="tagList">
+                    <li class="tag selected">금속</li>
+                    <li class="tag selected">유색</li>
+                    <li class="tag selected">기타</li>
+                    <li class="tag selected">0.2캐럿</li>
+                    <li class="tag selected">2캐럿</li>
+                    <li class="tag selected">18K 핑크골드</li>
+                  </ul>
+                </div>
+                <div class="tagSet">
+                  <div class="title">소재</div>
+                  <ul class="tagList">
+                    <li class="tag">다이아몬드</li>
+                    <li class="tag selected">금속</li>
+                    <li class="tag">유색</li>
+                    <li class="tag">진주</li>
+                    <li class="tag">기타</li>
+                  </ul>
+                </div>
+                <div class="tagSet">
+                  <div class="title">카테고리</div>
+                  <ul class="tagList">
+                    <li class="tag">다이아몬드</li>
+                    <li class="tag">금속</li>
+                    <li class="tag selected">유색</li>
+                    <li class="tag">진주</li>
+                    <li class="tag selected">기타</li>
+                  </ul>
+                </div>
+                <div class="tagSet">
+                  <div class="title">다이아몬드</div>
+                  <ul class="tagList">
+                    <li class="tag">멜리</li>
+                    <li class="tag">0.1캐럿</li>
+                    <li class="tag selected">0.2캐럿</li>
+                    <li class="tag">0.3캐럿</li>
+                    <li class="tag">0.5캐럿</li>
+                    <li class="tag">1캐럿</li>
+                    <li class="tag selected">2캐럿</li>
+                    <li class="tag">3캐럿</li>
+                  </ul>
+                </div>
+                <div class="tagSet">
+                  <div class="title">색상</div>
+                  <ul class="imgTagList">
+                    <li class="imgTag">
+                      <div class="img">
+                        <img src="./assets/tags/1.png" alt="" />
+                      </div>
+                      <div class="text">18K 화이트 골드</div>
+                    </li>
+                    <li class="imgTag selected">
+                      <div class="img">
+                        <img src="./assets/tags/2.png" alt="" />
+                      </div>
+                      <div class="text">18K 옐로우 골드</div>
+                    </li>
+                    <li class="imgTag selected">
+                      <div class="img">
+                        <img src="./assets/tags/3.png" alt="" />
+                      </div>
+                      <div class="text">18K 핑크 골드</div>
+                    </li>
+                    <li class="imgTag">
+                      <div class="img">
+                        <img src="./assets/tags/1.png" alt="" />
+                      </div>
+                      <div class="text">플래티넘</div>
+                    </li>
+                    <li class="imgTag">
+                      <div class="img">
+                        <img src="./assets/tags/2.png" alt="" />
+                      </div>
+                      <div class="text">실버</div>
+                    </li>
+                    <li class="imgTag">
+                      <div class="img">
+                        <img src="./assets/tags/3.png" alt="" />
+                      </div>
+                      <div class="text">10K 골드</div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="priceArea tagSet">
+                  <div class="title">금액대별</div>
+                  <div class="curPrice">
+                    <span class="min">0</span> 원 ~
+                    <span class="max">400,000</span> 원
+                  </div>
+                  <div class="priceTag">
+                    <ul class="priceTagList tagList">
+                      <li class="tag">0원 ~ 50만원</li>
+                      <li class="tag">50원 ~ 100만원</li>
+                      <li class="tag">100원 ~ 200만원</li>
+                      <li class="tag selected">200원 ~ 300만원</li>
+                      <li class="tag">300원 ~ 500만원</li>
+                      <li class="tag">500만원 ~</li>
+                    </ul>
+                  </div>
+                  <div class="priceProgressSlider">
+                    <div slider id="slider-distance">
+                      <div>
+                        <div inverse-left style="width: 70%"></div>
+                        <div inverse-right style="width: 70%"></div>
+                        <div range style="left: 30%; right: 40%"></div>
+                        <span thumb style="left: 30%"></span>
+                        <span thumb style="left: 60%"></span>
+                      </div>
+                      <input
+                        type="range"
+                        tabindex="0"
+                        value="30"
+                        max="100"
+                        min="0"
+                        step="1"
+                        oninput="
+                      this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                      var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                      var children = this.parentNode.childNodes[1].childNodes;
+                      children[1].style.width=value+'%';
+                      children[5].style.left=value+'%';
+                      children[7].style.left=value+'%';
+                      children[11].style.left=value+'%';
+                      "
+                      />
+
+                      <input
+                        type="range"
+                        tabindex="0"
+                        value="60"
+                        max="100"
+                        min="0"
+                        step="1"
+                        oninput="
+                      this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                      var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                      var children = this.parentNode.childNodes[1].childNodes;
+                      children[3].style.width=(100-value)+'%';
+                      children[5].style.right=(100-value)+'%';
+                      children[9].style.left=value+'%';
+                      children[13].style.left=value+'%';
+                     "
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bottomBtnSet">
+                <div class="initBtn center">
+                  <div class="icon">
+                    <img src="./assets/Icons/reload.png" alt="" />
+                  </div>
+                  <div class="text">필터 초기화</div>
+                </div>
+                <div class="searchBtn center">
+                  <div class="text">759개의 상품보기</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./modal.js"></script>
+  </body>
+</html>
