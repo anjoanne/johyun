@@ -559,30 +559,26 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     document.getElementById("kohi").onclick = function(e) {
          
-         //document.getElementById("img-diabecare72").classList.add("show");
-     
+        
+         document.getElementById("img-kohi").classList.add("show");
      document.getElementById("modal-content").innerHTML = "<strong>About.</strong> At Elice (cooperated with KOHI: <i> Korea Human Resource Development Institute for Health & Welfare </i>), I led and created an educational courses that provide doctors with the Machine Learrning, Programming knowledge and strategies to design and implement technology-enabled change initiatives in health care. <br></br> Please send me an email to view my work."
      document.getElementById("modal-title").innerHTML = "KOHI - AI for Healthcare Program <br><small></small>";
      document.getElementById("modal-extra").innerHTML = `
-<div class="extra-links">
- 
- 
- <a href="https://medicine.snu.ac.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=22070" target="_blank">
-     <i class="fas fa-link" aria-hidden="true"></i> 교육과정 안내
- </a>
- <a href="" target="_blank">
-      <i class="far fa-window-maximize" aria-hidden="true"></i> Video
- </a>
-     <a href="./pdfs/kohi_course.pdf" target="_blank">
-        <i class="far fa-window-maximize" aria-hidden="true"></i> Slides
-    </a>
- 
- 
- 
- 
-</div>
-
-`;
+        <div class="extra-links">
+        <a href="https://kohi.elice.io/explore" target="_blank">
+        <i class="fas fa-link" aria-hidden="true"></i> 교육과정 안내
+        </a>
+        <a href="https://medicine.snu.ac.kr/fnt/nac/selectNoticeDetail.do?bbsId=BBSMSTR_000000000001&nttId=22070" target="_blank">
+        <i class="fas fa-link" aria-hidden="true"></i> 강의 링크
+        </a>
+        <a href="./pdfs/kohi_course.pdf" target="_blank">
+        <i class="far fa-window-maximize" aria-hidden="true"></i> 이론 강의 자료
+        </a>
+        <a href="./pdfs/surveyResult.pdf" target="_blank">
+        <i class="far fa-window-maximize" aria-hidden="true"></i> 교육과정 만족도 조사 결과
+        </a>
+        </div>
+        `;
         
         openModal();
     }
@@ -657,7 +653,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     
 
-    
+
     document.getElementById("bam").onclick = function(e) {
          
          document.getElementById("img-bam").classList.add("show");
@@ -916,6 +912,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                   
                     
                     <img id="img-medicalapp" src='' alt='Loading...'>
+                    <img id="img-kohi" src='p_img/kohi.png' alt='Loading...'>
                     <img id="img-diabecare" src='img_diabecare.png' alt='Loading...'>
                     
                     
@@ -929,6 +926,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     <img id="img-toyota" src='p_img/img_toyota1.png' alt='Loading...'>
                     
                     <img id="img-muggles" src='p_img/img_toyota1.png' alt='Loading...'>
+
+            
                     
 
                     <img id="img-cube" src='/images/cube.gif' alt='Loading...'>
